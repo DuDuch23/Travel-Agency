@@ -42,6 +42,27 @@ ul{
     list-style-type: none;
 }
 
+.button1{
+    color: white;
+    text-transform: uppercase;
+    border: 1px solid white;
+    padding: 18px 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all 0.3 ease-in 0s;
+    background: transparent;
+}
+
+.button1:hover{
+    background: white;
+    color: #d82c2E;
+    text-decoration: none;
+}
+
 /* NAVBAR */
 .navbar{
     background-color: #d82c2E;
@@ -70,41 +91,23 @@ ul{
 /* ABOUT */
 
 #about{
+    padding-top: 100px;
     background-color: #d82c2E;
 }
 
 .profile-picture{
     text-align: center;
     margin: 0px auto 30px;
+    float: none;
 }
 
 #about .heading h1{
     color: white;
     text-transform: uppercase;
-    margin-bottom: 20px;
 }
 
 #about .heading h3{
-    
-}
-
-.button1{
-    color: white;
-    text-transform: uppercase;
-    border: 1px solid white;
-    padding: 18px 50px;
-    margin-top: 20px;
-    font-weight: bold;
-    display: inline-block;
-    border-radius: 3px;
-    margin-top: 20px;
-    text-decoration: none;
-    transition: all 0.3 ease-in 0s;
-}
-
-.button1:hover{
-    background: white;
-    color: #d82c2E;
+    color: #000;
 }
 
 /* SKILLS */
@@ -340,4 +343,45 @@ footer span:hover{
 footer h5{
     color: white;
     font-weight: normal;
+}
+
+/* CONTACT */
+#contact{
+    background: #d82c2E;
+}
+
+#contact .heading h2{
+    color: #fff;
+}
+
+#contact-form {
+    font-size: 20px;
+    /* background: #fff; */
+    padding: 40px;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.form-control {
+    height: 50px;
+    font-size: 18px;
+}
+
+#contact-form input[type=submit] {
+    margin: 40px auto 0px;
+    display: block;
+}
+
+.comments {
+    font-style: italic;
+    font-size: 18px;
+    color: #fff;
+    height: 25px
+}
+
+#contact-form .thank-you {
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
 }
